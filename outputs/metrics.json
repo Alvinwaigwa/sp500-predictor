@@ -1,0 +1,8 @@
+{
+  "mlp": {
+    "mse": 1008294.1694119835
+  },
+  "xgboost": {
+    "error": "xgboost is required for train_xgboost"
+  }
+}
