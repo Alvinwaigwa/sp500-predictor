@@ -42,9 +42,3 @@ python3 -m src.train
 python3 -m src.experiments --model xgboost --trials 20
 ```
 
-Notes for resumes and interviews
-- Describe the pipeline: deterministic data splits, feature engineering, baseline → deep learning progression, and walk-forward evaluation.
-- Highlight concrete artifacts: trained model files in `outputs/models/`, `metrics.json`, and Optuna study results under `outputs/experiments/`.
-- Be ready to show the notebook walkthrough (`notebooks/analysis.ipynb`) or reproduce a quick demo using `python3 -m src.train` during an interview.
-
-If you want, I can add a short model card and a polished `notebooks/modeling.ipynb` that walks through the full experiment and produces the key figures you'd include on a resume.
